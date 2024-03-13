@@ -1,299 +1,200 @@
-﻿\#  \*\*Bash Shell Scripting\*\* 
-
-![](https://lh7-us.googleusercontent.com/7ibztAUH9YGUTbFhsy2gfL0QRW75HHbUCIMa-s\_-c5ganCn1i6Xoh6gv5d2GjtDrnxw-\_9vf91nk3J8pW2At9MQERlZm\_hJJWbzUwqPBJUlQDha3IsC\_EE1JxHEuWtUo0oIxWFgvtALWBvdL00hSTA) 
-
-![](https://lh7-us.googleusercontent.com/mVhKrK79bHLqPTGIjd3FND9OhxbtgPJRxMc7-BclQqFBhfyd4QBVYSVasTLG0Bw\_ilGsAEVqBo1xZMl-xbXn3B40tcJACkLw1RzT89bc9Wn4Io3hun2ux2P7-G4wJB8Vzb0Q5Yz\_HXeVXLlA6x7Gfg)
-
-\#  \*\*By :- Himanshu (December Intern)\*\* 
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-\# \*\*Table of Content\*\* 
-
-[1. Introduction ](#introduction)
-
-[Definition of Bash scripting ](#definition-of-bash-scripting)
-
-[2. Advantages of Bash scripting ](#advantages-of-bash-scripting)
-
-[➔ Automation ](#automation)
-
-[➔ Portability ](#portability)
-
-[➔ Flexibility ](#flexibility)
-
-[➔ Accessibility ](#accessibility)
-
-[➔ Integration ](#integration)
-
-[➔ Debugging ](#debugging)
-
-[3. How to Get Started with Bash Scripting ](#how-to-get-started-with-bash-scripting)
-
-[4. Basic Bash commands ](#basic-bash-commands)
+# Bash Shell Scripting
 
 
-\##
+# Table of Content 
 
-\# 1.   \*\*Introduction\*\*<a id="introduction"></a>
+[1. Introduction](#introduction)
+[Definition of Bash scripting](#definition-of-bash-scripting)
 
-\- Shell Scripting consists of a set of commands to perform a task.
+[2. Advantages of Bash scripting](#advantages-of-bash-scripting)
 
-\- All commands execute sequentially.
+[➔ Automation](#a-automation)
 
-\- Tasks like file manipulation, program execution, user interaction, automation of tasks etc can be done by Shell Scripting.
+[➔ Portability](#b-portability)
+[➔ Flexibility](#c-flexibility)
+
+[➔ Accessibility](#d-accessibility)
+
+[➔ Integration](#e-integration)
+
+[➔ Debugging](#f-debugging)
+
+[3. How to Get Started with Bash Scripting](#3-how-to-get-started-with-bash-scripting)
+
+[4. Basic Bash commands](#4-basic-bash-commands)
+
+#   Introduction
+- Shell Scripting consists of a set of commands to perform a task.
+
+- All commands execute sequentially.
+
+- Tasks like file manipulation, program execution, user interaction, automation of tasks etc can be done by Shell Scripting.
 
 
-\## Definition of Bash scripting<a id="definition-of-bash-scripting"></a>
+## Definition of Bash scripting
 
-\- BASH stands for \*\*Bourne Again SHell\*\*
+- BASH stands for **Bourne Again SHell**
 
-\- A bash script is a file containing a sequence of commands that are executed by the bash program line by line. It allows us to perform a series of actions, such as navigating to a specific directory, creating a folder, and launching a process using the command line.
+- A bash script is a file containing a sequence of commands that are executed by the bash program line by line. It allows us to perform a series of actions, such as navigating to a specific directory, creating a folder, and launching a process using the command line.
 
-\* By saving these commands in a script, we can repeat the same sequence of steps multiple times and execute them by running the script.
+- By saving these commands in a script, we can repeat the same sequence of steps multiple times and execute them by running the script.
 
-\# 2.   \*\*Advantages of Bash scripting\*\*<a id="advantages-of-bash-scripting"></a>
 
-` `## a) \*\*Automation\*\*<a id="automation"></a>
+#  Advantages of Bash scripting
 
-\* It allows us to automate repetitive task and processes, saving time and reducing the risk of errors that can occur with manual execution.
+## a) **Automation**
 
-\## b) \*\*Portability\*\*<a id="portability"></a>
+- It allows us to automate repetitive task and processes, saving time and reducing the risk of errors that can occur with manual execution.
 
-\* Shell scripts can run on various platforms and operating systems, like UNIX, Linux, macOS, and even Windows through the use of emulators or virtual machines.
 
-` `## c) \*\*Flexibility\*\*<a id="flexibility"></a>
+## b) Portability
 
-\* Shell scripts are highly customizable and can be easily modified to suit specific requirements. 
+- Shell scripts can run on various platforms and operating systems, like UNIX, Linux, macOS, and even Windows through the use of emulators or virtual machines.
 
-\- They can also be combined with other programming languages or utilities to create more powerful scripts.
+ ## c) **Flexibility**
 
-\## d) \*\*Accessibility\*\*<a id="accessibility"></a>
+- Shell scripts are highly customizable and can be easily modified to suit specific requirements. 
 
-\- Shell scripts are easy to write and don't require any special tools or software. 
+- They can also be combined with other programming languages or utilities to create more powerful scripts.
 
-\* They can be edited using any text editor like ( nano,vim,vi ), and most operating systems have a built-in shell interpreter.
 
-` `## e) \*\*Integration\*\*<a id="integration"></a>
+## d) Accessibility
 
-\* Shell scripts can be integrated with other tools and applications, such as databases, web servers, and cloud services, allowing for more complex automation and system management tasks.
+- Shell scripts are easy to write and don’t require any special tools or software. 
 
-` `## f) \*\*Debugging\*\*<a id="debugging"></a>
+- They can be edited using any text editor like ( nano,vim,vi ), and most operating systems have a built-in shell interpreter.
 
-\* Shell scripts are easy to debug, and most shells have built-in debugging and error-reporting tools that can help identify and fix issues quickly.
+## e) **Integration**
 
-\# 3.   \*\*How to Get Started with Bash Scripting\*\*<a id="how-to-get-started-with-bash-scripting"></a>
+- Shell scripts can be integrated with other tools and applications, such as databases, web servers, and cloud services, allowing for more complex automation and system management tasks.
+
+## f) **Debugging**
+
+- Shell scripts are easy to debug, and most shells have built-in debugging and error-reporting tools that can help identify and fix issues quickly.
+
+
+# 3. How to Get Started with Bash Scripting
 
 To start a Bash script in Linux, we need to follow these general steps:
 
-1\. Create a Bash script: Use a text editor, such as `nano`, `vim`, or `gedit`, to create a new file and write your Bash script. For example:
-
-\``` 
-
-`       `nano myscript.sh
-
-\```
-
-`   `Inside the editor, write your script. Here's a simple example:
-
-\```       
-
-`       `#!/bin/bash
-
-`       `echo "Hello, World!"
-
-\```
-
-`   `Save the file and exit the text editor.
-
-2\. Make the script executable: You need to make the script executable to run it. Use the `chmod` command to do this:
-
-\```
-
-`       `chmod +x myscript.sh
-
-\```
-
-3\. Run the script: We can execute the script by typing its name preceded by `bash` in the terminal:
-
-\```
-
-`       `bash myscript.sh
-
-\```
-
-`   `This assumes that the script is in the current directory. If it's in a different directory, we need to provide the full or relative path.
+1.  Create a Bash script: Use a text editor, such as nano, vim, or gedit, to create a new file and write your Bash script. For example:
 
 
-Keep in mind that the first line (`#!/bin/bash`) is called a \*\*SHEBANG\*\*, and it specifies the interpreter (in this case, Bash) to be used to run the script. It's necessary for the script to be interpreted correctly.
+nano myscript.sh
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+Inside the editor, write your script. Here’s a simple example:
+***
+ #!/bin/bash\
+ echo "Hello, World!"
 
-\# :- \*\*Here are some Bash Shell Script code :-\*\*
+Save the file and exit the text editor.
 
-i) \*\*Basic code\*\*
+2. Make the script executable: You need to make the script executable to run it. Use the chmod command to do this:
 
-\```
+       chmod +x myscript.sh
 
-` `nano basic.sh
+3. Run the script: We can execute the script by typing its name preceded by bash in the terminal:
 
-\```
+       bash myscript.sh
 
-\```
+This assumes that the script is in the current directory. If it’s in a different directory, we need to provide the full or relative path.
 
-#!/bin/bash
+Keep in mind that the first line (#!/bin/bash) is called a **SHEBANG**, and it specifies the interpreter (in this case, Bash) to be used to run the script. It’s necessary for the script to be interpreted correctly. \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-echo "what is the number ?"
 
-read k
+# :- Here are some Bash Shell Script code :-
 
+1. **Basic code**
+
+ nano basic.sh
+
+\#!/bin/bash\
+echo "what is the number ?"\
+read k\
 echo "The number is :-" $k 
 
-\```
+**OUTPUT**
 
-\*\*OUTPUT\*\*
+ bash basic.sh
 
-\```
-
-` `bash basic.sh
-
-\```
-
-\*\*\*
+***
 
 what is the number ?
 
 23
 
-The number is :- 23
+The number is :- 23 \* ****NOTE ➖\*\*
 
-\*\*\*
+- echo command is used to print the statement.
 
-\*\*NOTE ➖\*\*
+- read command is used to enter the value.
 
-\- `echo` command is used to print the statement.
+- $ means to find a specific value that we enter with the help of the read command.
 
-\- `read` command is used to enter the value.
+- To run the program we have to write “**bash filename.sh**”, here .sh is the extension to run the program. \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
-\- `$` means to find a specific value that we enter with the help of the read command.
+2. **Conditional Statement**
 
-\- To run the program we have to write “\*\*bash filename.sh\*\*”, here `.sh` is the extension to run the program.
+ nano condition.sh
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-ii) \*\*Conditional Statement\*\*
-
-\```
-
-` `nano condition.sh
-
-\```
-
-\```
-
-#!/bin/bash
-
-echo "Enter the number"
-
-read num
-
-if [ $num -lt 1000 ];
-
-`    `then
-
-echo "Number is correct"
-
-`    `else
-
-echo "Number is incorrect"
-
+\#!/bin/bash\
+echo "Enter the number"\
+read num\
+if \[ $num -lt 1000 ];\
+    then\
+echo "Number is correct"\
+    else\
+echo "Number is incorrect"\
 fi
 
-\```
+**OUTPUT**
 
-\*\*OUTPUT\*\*
+ bash condition.sh
 
-\```
-
-` `bash condition.sh
-
-\```
-
-\*\*\*
+***
 
 Enter the number
 
 12345
 
-\*\*Number is incorrect\*\*
+**Number is incorrect**
 
-\```
-
-` `bash condition.sh
-
-\```
+ bash condition.sh
 
 Enter the number
 
 123
 
-\*\*Number is correct\*\*
+**Number is correct**
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+***
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+***
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+***
 
-iii) \*\*OR (`||`) Operator\*\*
-
-\```
+3. **OR (||) Operator**
 
 nano or.sh
 
-\```
+\#!/bin/bash\
+echo "Now enter the details of user"\
+echo "Enter the username"\
+read user\
+echo "Enter the password"\
+read pass\
+if \[\[ ( $user == "Kartikay" || $pass == "301224") ]];\
+    then\
+echo "user is valid"\
+    else\
+echo "user is invalid"\
+    fi
 
-\```
-
-#!/bin/bash
-
-echo "Now enter the details of user"
-
-echo "Enter the username"
-
-read user
-
-echo "Enter the password"
-
-read pass
-
-if [[ ( $user == "Kartikay" || $pass == "301224") ]];
-
-`    `then
-
-echo "user is valid"
-
-`    `else
-
-echo "user is invalid"
-
-`    `fi
-
-\```
-
-\*\*OUTPUT\*\*
-
-\```
+**OUTPUT**
 
 bash or.sh
 
-\```
-
-\*\*\*\*
+***
 
 Now enter the details of user
 
@@ -305,14 +206,10 @@ Enter the password
 
 301224
 
-\*\*user is valid\*\*
-
-\```
+**user is valid**
 
 bash or.sh
 
-\```
-
 Now enter the details of user
 
 Enter the username
@@ -323,59 +220,36 @@ Enter the password
 
 301224
 
-\*\*user is valid\*\*
+**user is valid**
 
-\*\*\*\*
+***
 
-\*\*\*\*
+***
 
-\*\*\*\*
+***
 
-iv) \*\*AND (`&`) Operator\*\*
+4. **AND (&) Operator**
 
-\```
+ nano and.sh
 
-` `nano and.sh
-
-\```
-
-\```
-
-#!/bin/bash
-
-echo "Now enter the details of user"
-
-echo "Enter the username"
-
-read user
-
-echo "Enter the password"
-
-read pass
-
-if [[ ( $user == "Kartikay" && $pass == "301224") ]];
-
-`    `then
-
-echo "user is valid"
-
-`    `else
-
-echo "user is invalid"
-
+\#!/bin/bash\
+echo "Now enter the details of user"\
+echo "Enter the username"\
+read user\
+echo "Enter the password"\
+read pass\
+if \[\[ ( $user == "Kartikay" && $pass == "301224") ]];\
+    then\
+echo "user is valid"\
+    else\
+echo "user is invalid"\
 fi
 
-\```
+**OUTPUT**
 
-\*\*OUTPUT\*\*
+ bash and.sh
 
-\```
-
-` `bash and.sh
-
-\```
-
-\*\*\*
+***
 
 Now enter the details of user
 
@@ -387,13 +261,9 @@ Enter the password
 
 301224
 
-\*\*user is invalid\*\*
+**user is invalid**
 
-\```
-
-` `bash and.sh
-
-\```
+ bash and.sh
 
 Now enter the details of user
 
@@ -405,129 +275,61 @@ Enter the password
 
 301224
 
-\*\*user is valid\*\*
+**user is valid**  **__**\*\*\*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\*\*\*\*\*\* v) **CASE Option**
 
-\*\*\*
+ nano case.sh
 
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-v) \*\*CASE Option\*\*
-
-\```
-
-` `nano case.sh
-
-\```
-
-\```
-
-#!/bin/bash
-
-echo "Enter the assigned Single digit no. to check Employee details"
-
-read val
-
-case $val in
-
-\1)
-
-echo "Name – Ram  Emp ID – 101 ";;
-
-\2)
-
-echo "Name – Ramesh  Emp ID – 103 ";;
-
-\3)
-
-echo "Name – Shyam  Emp ID – 102 ";;
-
-\4)
-
-echo "Name – Vishal Emp ID – 104 ";;
-
-\5)
-
-echo "Name – Aman  Emp ID – 105 ";;
-
-\*)
-
-echo "Sorry! Invalid choice";;
-
+\#!/bin/bash\
+echo "Enter the assigned Single digit no. to check Employee details"\
+read val\
+case $val in\
+1\)\
+echo "Name – Ram  Emp ID – 101 ";;\
+2\)\
+echo "Name – Ramesh  Emp ID – 103 ";;\
+3\)\
+echo "Name – Shyam  Emp ID – 102 ";;\
+4\)\
+echo "Name – Vishal Emp ID – 104 ";;\
+5\)\
+echo "Name – Aman  Emp ID – 105 ";;\
+\*)\
+echo "Sorry! Invalid choice";;\
 esac
 
-\```
+**OUTPUT** \*\*\*\*\*\*\*\*\*\*
 
-\*\*OUTPUT\*\*
-
-\*\*\*\*\*\*\*\*\*\*
-
-\```
-
-` `bash case.sh
-
-\```
+ bash case.sh
 
 Enter the assigned Single digit no. to check Employee details
 
 2
 
-\*\*Name – Ramesh  Emp ID – 103\*\*
+**Name – Ramesh  Emp ID – 103**
 
-\```
-
-` `bash case.sh
-
-\```
+ bash case.sh
 
 Enter the assigned Single digit no. to check Employee details
 
-\*\*\\*\*\*
+**\***
 
-`  `\*\*Sorry! Invalid choice\*\*
-
-\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*
-
-vi) \*\*Looping\*\* 
+**Sorry! Invalid choice** \*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\* vi) **Looping** 
 
 This is a process in which all the statements will run till condition is true
 
-\*\*(a) For Loop\*\*
-
-\```
+**(a) For Loop**
 
 nano loop.sh
 
-\```
-
-\```
-
-#!/bin/bash
-
-for (( count==0; count<10; count++; ))
-
-do
-
-echo $count
-
+\#!/bin/bash\
+for (( count==0; count<10; count++; ))\
+do\
+echo $count\
 done
 
-\```
-
-\*\*OUTPUT\*\*
-
-\*\*\*\*\*\*\*\*\*\*
-
-\```
+**OUTPUT** \*\*\*\*\*\*\*\*\*\*
 
 bash loop.sh
-
-\```
 
 1
 
@@ -545,49 +347,21 @@ bash loop.sh
 
 8
 
-9
-
-\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*\*\*\*\*\*\*\*\*\*
-
-\*\*(b) While Loop\*\*
-
-\```
+9 \*\*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\*\* \*\*\*\*\*\*\*\*\*\*\* **(b) While Loop**
 
 nano while.sh
 
-\```
-
-\```
-
-#!/bin/bash
-
-counter=1
-
-while [ $counter -le 7 ]
-
-do
-
-`    `echo $counter
-
-`    `((counter++))
-
+\#!/bin/bash\
+counter=1\
+while \[ $counter -le 7 ]\
+do\
+    echo $counter\
+    ((counter++))\
 done
 
-\```
-
-\*\*OUTPUT\*\*
-
-\*\*\*\*\*
-
-\```
+**OUTPUT** \*\*\*\*\*
 
 bash while.sh
-
-\```
 
 1
 
@@ -601,102 +375,65 @@ bash while.sh
 
 6
 
-7
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-\*\*\*\*\*
-
-\# \*\*To search file with the help of scripting\*\*
-
-\```
+7 \*\*\*\*\* \*\*\*\*\* \*\*\*\*\* # **To search file with the help of scripting**
 
 nano search.sh
 
-\```
-
-\```
-
-#!/bin/bash
-
-echo "Enter the file name you want to search"
-
-read name
-
-if [ -f $name ];
-
-`   `then
-
-echo "File is exists"
-
-`   `else
-
-echo "File does not exists"
-
+\#!/bin/bash\
+echo "Enter the file name you want to search"\
+read name\
+if \[ -f $name ];\
+&#x20;  then\
+echo "File is exists"\
+&#x20;  else\
+echo "File does not exists"\
 fi
 
-\```
+**Note ➖**
 
-\*\*Note ➖\*\*
+- Here f helps to find the file from our system
 
-\- Here `f` helps to find the file from our system
-
-\*\*OUTPUT\*\*
-
-\```
+**OUTPUT**
 
 bash search.sh
-
-\```
 
 Enter the file name you want to search
 
 kaushik
 
-\*\*File is exists\*\*
-
-\```
+**File is exists**
 
 bash search.sh
-
-\```
 
 Enter the file name you want to search
 
 kartik
 
-\*\*File does not exists\*\*
+**File does not exists**
 
-\*\*Note ➖\*\*
+**Note ➖**
 
-\- Remember that file must already exist in your system.
+- Remember that file must already exist in your system. \*\*\*\* \*\*\*\* \*\*\*\*
 
-\*\*\*\*
 
-\*\*\*\*
+# 4.  Basic Bash commands
 
-\*\*\*\*
+1.      cd: Change the directory to a different location.
 
-\# 4.   \*\*Basic Bash commands\*\*<a id="basic-bash-commands"></a>
+2.      ls: List the contents of the current directory.
 
-\1)      cd: Change the directory to a different location\.
+3.      mkdir: Create a new directory.
 
-\2)      ls: List the contents of the current directory\.
+4.      touch: Create a new empty file.
 
-\3)      mkdir: Create a new directory\.
+5.      rm: Remove a file or directory.
 
-\4)      touch: Create a new empty file\.
+6.      cp: Copy a file or directory.
 
-\5)      rm: Remove a file or directory\.
+7.      mv: Move or rename a file or directory.
 
-\6)      cp: Copy a file or directory\.
+8.      echo: Print text to the terminal.
 
-\7)      mv: Move or rename a file or directory\.
+9.      cat: Concatenate and print the contents of a file.
 
-\8)      echo: Print text to the terminal\.
-
-\9)      cat: Concatenate and print the contents of a file\.
-
-\10)  read: This command helps us to print the value\.
+10. read: This command helps us to print the value.
